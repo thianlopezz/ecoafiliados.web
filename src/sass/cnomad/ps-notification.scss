@@ -1,0 +1,38 @@
+/* NOTIFICATION */
+.ps-roundpoint {
+  position: absolute;
+  top: -0.6em;
+  left: 1em;
+  width: 16px;
+  height: 16px;
+  background-color: rgba(255, 0, 0, 0.8);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+  font-style: normal !important;
+  line-height: 14px !important;
+  color: #fff;
+}
+
+.navbar-toggler a {
+  color: #fff;
+}
+
+.ps-roundpoint-mob {
+  position: absolute;
+  top: 0.1em;
+  left: 1.8em;
+  width: 16px;
+  height: 16px;
+  background-color: rgba(255, 0, 0, 1);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+  font-style: normal !important;
+  line-height: 14px !important;
+  color: #fff;
+}

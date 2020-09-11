@@ -1,0 +1,46 @@
+    .ps-spinner{
+        float:left;
+        position:fixed;
+        z-index:100;
+         left: 48%;
+    }
+
+
+    .ps-dummyCard{
+    float:left; /* add this */
+    height: 30vh;
+    // width: 15rem;
+    // background-color: rgb(190, 190, 190);
+
+        .photo{
+        height: 60%;
+        margin:.5em;
+        background-color: #F1F1F1;
+  
+        }
+
+        .title{
+            height:12%;
+            width: 93%;
+            margin:.5em;
+            background-color:#F1F1F1;
+            border-radius: .4em;
+        }
+
+        .description{
+            height: 12%;
+            width: 70%;
+            margin:.5em;
+            background-color:#F1F1F1;
+            border-radius: .4em;
+        }
+
+    }
+
+
+
+
+
+
+
+    

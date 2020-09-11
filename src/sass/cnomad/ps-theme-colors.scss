@@ -1,0 +1,10 @@
+$theme-colors: (
+  'primary': #03dda2,
+  'secondary': #ff4762,
+  'danger': #f46e89,
+);
+
+button:disabled {
+  // background-color: $gray-600 !important;
+  opacity: 0.2 !important;
+}

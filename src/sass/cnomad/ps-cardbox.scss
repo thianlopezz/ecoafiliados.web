@@ -1,0 +1,165 @@
+/* CARD BOX */
+ .ps-card-box {
+ 
+
+
+        .ps-toolbar {
+        button{
+        margin-top: .4em;
+        margin-bottom: .4em;
+        }
+        }
+
+
+        .card-body{
+        position:relative;
+        }
+
+
+        img:hover{
+        cursor: pointer;
+        }
+
+        .profile-image-block{
+        // float:left;
+        // width:100%;
+        // overflow:hidden;
+
+        }
+
+
+     .card-img-block{
+            min-width: 100%;
+            min-height: 25vh;
+            height: 25vh;
+            width: 100%;
+            cursor: auto;
+    }
+   
+}
+
+
+.ps-btn-xs{
+   font-size: .8rem;
+   width: 1.8rem;
+   padding-top: .3rem;
+   padding-left: .3rem;
+   padding-right: .3rem;
+   padding-bottom: .3rem;
+   border-radius: 50%;
+}
+
+
+
+
+
+
+//Profile Photo Upload
+
+.ps-photo-upload{
+
+        cursor:pointer;
+        vertical-align: middle;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        
+    .img-responsive{
+       
+        height: 33vh;
+        width:33vh;
+        max-width: 100%;
+        object-fit:cover;
+        padding: 3vh;
+     }
+
+    .description-box {
+        top:0;
+        height: 33vh;
+        width: 100%;
+        position: absolute;
+        background: rgba(0, 4, 7, 0.72);
+        color: #fff;
+        visibility: hidden;
+        opacity: 0.3;
+        transition: opacity .2s, visibility .2s;
+        p {
+            margin-top:1em;
+            font-size:6vh;
+        }
+    }
+
+}
+
+    .ps-photo-upload:hover .description-box {
+        visibility: visible;
+        opacity: 1;
+        
+    }
+
+
+
+    // ps card 2
+
+    /*Profile card 2*/
+.profile-card-2 
+{
+
+
+    .card-img-block{
+            float:left;
+            overflow:hidden;
+            min-width: 100%;
+           
+            cursor: auto;
+
+            img{
+                 width: 100%;
+                height: 25vh;
+            }
+    }
+    .card-body{
+        position:relative;
+    }
+    .profile {
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 15%;
+    max-width: 75px;
+    // border: 3px solid rgba(255, 255, 255, 1);
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    }
+    h5{
+        font-weight:600;
+        color:#019AD9;
+    }
+    .card-text{
+        font-weight:300;
+        font-size:15px;
+    }
+    // .icon-block{
+    //     float:left;
+    //     width:100%;
+    // }
+    // .icon-block a{
+    //     text-decoration:none;
+    // }
+    // i {
+    // display: inline-block;
+    //     font-size: 16px;
+    //     color: #019AD9;
+    //     text-align: center;
+    //     border: 1px solid #019AD9;
+    //     width: 30px;
+    //     height: 30px;
+    //     line-height: 30px;
+    //     border-radius: 50%;
+    //     margin:0 5px;
+    // }
+    // i:hover {
+    // background-color:#019AD9;
+    // color:#fff;
+    // }
+}

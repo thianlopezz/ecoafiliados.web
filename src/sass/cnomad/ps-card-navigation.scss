@@ -1,0 +1,41 @@
+
+
+.ps-card-navigation{
+            
+    min-height: 40vh;
+    position: relative;
+
+    // background-color:#dfa;
+
+    .ps-navigation-left {
+        position: absolute;
+        top: 50%;
+        left: 0 ;
+        z-index: 11;
+    }
+
+    .ps-navigation-right {
+          position: absolute;
+        top: 50%;
+        right: 0 ;
+          z-index: 1;
+    }
+
+}
+
+   .fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

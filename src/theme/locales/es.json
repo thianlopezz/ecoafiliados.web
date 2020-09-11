@@ -1,0 +1,280 @@
+{
+  "gps_restrictions": {
+    "title": "Antes de ingresar a las Islas galápagos",
+    "description": "Listado de productos y derivados de origen vegetal y animal reglamentados para su ingreso a las Islas Galápagos",
+    "allowedProducts": {
+      "title": "Productos permitidos",
+      "description": "Deben cumplir con las normas generales (N.G.), y los requisitos específicos** estableccidos: ",
+      "list": [
+        {
+          "code": "001",
+          "description": "Acceites vegetales: soya, maíz, girasol"
+        },
+        {
+          "code": "002",
+          "description": "Accelga"
+        },
+        {
+          "code": "003",
+          "description": "Achiote"
+        },
+        {
+          "code": "004",
+          "description": "Ají fresco o procesado"
+        },
+        {
+          "code": "005",
+          "description": "Ajonjolí"
+        },
+        {
+          "code": "006",
+          "description": "Albahaca"
+        },
+        {
+          "code": "007",
+          "description": "Alcachofa"
+        },
+        {
+          "code": "008",
+          "description": "Alfalfa"
+        },
+        {
+          "code": "009",
+          "description": "Almeja sin valvas"
+        },
+        {
+          "code": "010",
+          "description": "Anicillo"
+        },
+        {
+          "code": "011",
+          "description": "Anís"
+        },
+        {
+          "code": "012",
+          "description": "Apio"
+        },
+        {
+          "code": "013",
+          "description": "Arroz"
+        },
+        {
+          "code": "014",
+          "description": "Artesanías de Banbú"
+        },
+        {
+          "code": "015",
+          "description": "Artesanías de caña"
+        },
+        {
+          "code": "016",
+          "description": "Artesanías de madera"
+        },
+        {
+          "code": "017",
+          "description": "Artículos de paja"
+        },
+        {
+          "code": "018",
+          "description": "Avena"
+        },
+        {
+          "code": "019",
+          "description": "Berenjena"
+        },
+        {
+          "code": "020",
+          "description": "Borojó"
+        }
+      ]
+    },
+    "restrictedProducts": {
+      "title": "Productos restringidos",
+      "description": "Tienen mayor riesgo sanitario y fitosanitario para el transporte de plagas y enfermadades. Deben cumplir con las normas generales *(N.G.) y los requisitos específicos ** establecidos",
+      "list": [
+        {
+          "code": "201",
+          "description": "Agua"
+        },
+        {
+          "code": "202",
+          "description": "Aguacate"
+        },
+        {
+          "code": "203",
+          "description": "Ajo"
+        },
+        {
+          "code": "204",
+          "description": "Arveja"
+        },
+        {
+          "code": "205",
+          "description": "Babaco"
+        },
+        {
+          "code": "206",
+          "description": "Banano"
+        },
+        {
+          "code": "207",
+          "description": "Berro"
+        },
+        {
+          "code": "208",
+          "description": "Brócoli"
+        },
+        {
+          "code": "209",
+          "description": "Capulí"
+        },
+        {
+          "code": "210",
+          "description": "Cebolla Paiteña"
+        },
+        {
+          "code": "211",
+          "description": "Cebolla Perla"
+        },
+        {
+          "code": "212",
+          "description": "Chocho"
+        },
+        {
+          "code": "213",
+          "description": "Choclo"
+        },
+        {
+          "code": "214",
+          "description": "Claudia"
+        },
+        {
+          "code": "215",
+          "description": "Cocos"
+        },
+        {
+          "code": "216",
+          "description": "Col blanca/morada"
+        },
+        {
+          "code": "217",
+          "description": "Coliflor"
+        },
+        {
+          "code": "218",
+          "description": "Culantro"
+        },
+        {
+          "code": "219",
+          "description": "Durazno"
+        },
+        {
+          "code": "220",
+          "description": "Eucalipto"
+        },
+        {
+          "code": "221",
+          "description": "Flores Secas"
+        },
+        {
+          "code": "222",
+          "description": "Fréjol"
+        }
+      ]
+    },
+    "prohibitedProducts": {
+      "title": "Productos no permitidos",
+      "description": "Son altamente agresivos y pueden transportar enfermedades o plagas",
+      "list": [
+        {
+          "code": "401",
+          "description": "Ajenjo"
+        },
+        {
+          "code": "402",
+          "description": "Ajenjo serrano"
+        },
+        {
+          "code": "403",
+          "description": "Albaricoque"
+        },
+        {
+          "code": "404",
+          "description": "Anoa"
+        },
+        {
+          "code": "405",
+          "description": "Badea"
+        },
+        {
+          "code": "406",
+          "description": "Café en grano seco"
+        },
+        {
+          "code": "407",
+          "description": "Caimito"
+        },
+        {
+          "code": "408",
+          "description": "Caña de Azúcar"
+        },
+        {
+          "code": "409",
+          "description": "Cereza"
+        },
+        {
+          "code": "410",
+          "description": "Chamico"
+        },
+        {
+          "code": "411",
+          "description": "Chirimoya"
+        },
+        {
+          "code": "412",
+          "description": "Chulco"
+        },
+        {
+          "code": "413",
+          "description": "Especies forestales y maderables y sus partes propagativas"
+        },
+        {
+          "code": "414",
+          "description": "Flores frescas"
+        },
+        {
+          "code": "415",
+          "description": "Frambuesa"
+        },
+        {
+          "code": "416",
+          "description": "Granada"
+        },
+        {
+          "code": "417",
+          "description": "Granadilla"
+        },
+        {
+          "code": "418",
+          "description": "Grosella"
+        },
+        {
+          "code": "419",
+          "description": "Guaba bejuco"
+        },
+        {
+          "code": "420",
+          "description": "Guaba machete"
+        },
+        {
+          "code": "421",
+          "description": "Guanabana"
+        },
+        {
+          "code": "422",
+          "description": "Guayaba"
+        }
+      ]
+    }
+  }
+}

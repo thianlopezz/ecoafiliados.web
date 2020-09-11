@@ -1,0 +1,64 @@
+
+/*Prevenir paddings */
+
+.modal {
+    padding-right: 0 !important
+}
+
+.modal-open {
+    overflow: inherit;
+    padding-right: 0 !important
+}
+
+.navbar-toggler{
+     margin-right: 0 !important
+}
+
+
+
+.modal-footer {
+   padding-top: 2%;
+   padding-bottom:2%;
+}
+
+
+
+
+ @media screen and (min-width: 0px) and (max-width:800px){
+
+   .modal-content {
+
+      height: 100%;
+      width: 100vw;
+      // position: absolute;
+
+   }
+
+   .modal-dialog {
+      margin: 0 !important;
+      padding: 0 !important;
+  }
+
+  .modal-body p {
+     font-size: 5vh;
+  }
+
+
+
+.modal-footer {
+   padding-left:10% !important;
+   padding-right:10% !important;
+    
+   button {
+        height: 6vh;
+        width: 100%;
+    }
+
+}
+
+
+ 
+  
+ }
+
+

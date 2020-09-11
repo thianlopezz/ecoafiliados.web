@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      style="font-family: sans-serif; color: #464646; max-width: 600px; margin-right: auto; margin-left: auto; padding-right:
+15px; padding-left: 15px; width: 100%;"
+    >
+      <div style="margin: 10px">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/nomadem.appspot.com/o/nomademdotcom.png?alt=media&token=b5392012-b9b8-4253-8bbd-6240a48591c7"
+          width="100%"
+        />
+        <h2 style="margin-bottom: 0">Hello!</h2>
+        <h1 style="margin-top: 0">{{ name }}</h1>
+        <h1>We are happy for join us!</h1>
+        <p style="font-size: 1.3rem">
+          Just one more thing before you get all the benefits of Nomadem.
+        </p>
+        <p style="font-size: 1.3rem">
+          Please confirm your account following the next link.
+        </p>
+        <a
+          href="http://localhost:3000/account/confirm/{{ token }}"
+          target="_blank"
+          >Confirm account.</a
+        >
+      </div>
+    </div>
+  </body>
+</html>

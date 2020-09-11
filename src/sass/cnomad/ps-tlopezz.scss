@@ -1,0 +1,162 @@
+// THIANLOPEZZ
+
+/* MASONRY GALLERY */
+.gal {
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+}
+
+.gal img {
+  width: 100%;
+  padding: 7px 0;
+}
+
+@media (max-width: 500px) {
+  .gal {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+}
+
+.mansory-box > img {
+  cursor: pointer;
+}
+/* MASONRY GALLERY */
+
+/* LIGHT BOX  */
+.modal-content.lightbox {
+  height: calc(100vh - 80px);
+  background: black;
+}
+
+.modal-content.lightbox .carousel .carousel-inner .carousel-item.active img {
+  max-height: calc(100vh - 80px);
+  max-width: calc(100vw - 80px);
+}
+
+.lightbox .close {
+  position: absolute;
+  right: 1rem;
+  font-size: 3rem;
+  color: white;
+}
+/* LIGHT BOX  */
+.mansory-box {
+  position: relative;
+}
+
+.mansory-box .toolbar {
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  background: rgba(43, 43, 43, 0.267);
+  bottom: 0.6rem;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.mansory-box .toolbar.left {
+  width: 95.4%;
+  left: 0.6rem;
+  background: transparent;
+}
+.mansory-box .toolbar.left .btn-toolbar .btn-group {
+  margin-left: auto;
+  margin-right: auto !important;
+}
+
+.mansory-box:hover .toolbar {
+  visibility: visible;
+  opacity: 1;
+}
+
+.toolbar .btn-group button {
+  margin: 0.15rem;
+}
+
+.star {
+  color: rgb(255, 238, 88);
+}
+
+button:hover.star {
+  color: rgb(255, 238, 88);
+}
+
+.incluidos {
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.incluidos .incluye {
+  background-color: #e4e4e4;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.card-body.lugar {
+  padding: 0.3rem;
+}
+
+/* CARDS */
+.card {
+  border: unset;
+  border-radius: unset;
+}
+.card-img-top {
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
+  height: 20vw;
+  object-fit: cover;
+}
+.card-footer {
+  background-color: unset;
+  border-top: unset;
+}
+.card-img-top.lugar {
+  height: 12.5vw;
+}
+.card-block.lugar {
+  border-top: unset;
+}
+
+.card-img-top-sm {
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* HOME h2 */
+h2.tittle {
+  font-size: 1.4rem !important;
+}
+
+h3.tittle {
+  font-size: 1rem !important;
+}
+
+.header-ciudad {
+  width: 100%;
+  height: 45vh;
+  position: relative;
+  background: url("https://media2.trover.com/T/55a309fdae8d8a22620146a6/fixedw_large_4x.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header-ciudad .info {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0rem 1rem 1rem 1rem;
+}

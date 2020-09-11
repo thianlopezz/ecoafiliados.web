@@ -1,0 +1,13 @@
+.ps-nopad {
+  max-width: 100%;
+  padding-left: 0%;
+  padding-right: 0% !important;
+  margin-right: auto;
+  margin-left: auto;
+  .row {
+    padding-left: 0%;
+    padding-right: 0% !important;
+    margin-left: 0%;
+    margin-right: 0% !important;
+  }
+}
