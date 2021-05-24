@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.13aad6a7.chunk.css",
+    "main.js": "/static/js/main.6ac80a16.chunk.js",
+    "main.js.map": "/static/js/main.6ac80a16.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a6c96503.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a6c96503.js.map",
+    "static/css/2.acb46a9f.chunk.css": "/static/css/2.acb46a9f.chunk.css",
+    "static/js/2.778aff2a.chunk.js": "/static/js/2.778aff2a.chunk.js",
+    "static/js/2.778aff2a.chunk.js.map": "/static/js/2.778aff2a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f41d2bd88f5caa590734cfaeec9df55c.js": "/precache-manifest.f41d2bd88f5caa590734cfaeec9df55c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.acb46a9f.chunk.css.map": "/static/css/2.acb46a9f.chunk.css.map",
+    "static/css/main.13aad6a7.chunk.css.map": "/static/css/main.13aad6a7.chunk.css.map",
+    "static/media/style.css": "/static/media/Linearicons-Free.b9b7f23c.eot",
+    "static/media/all.min.css": "/static/media/fa-solid-900.f6121be5.woff2",
+    "static/media/loadie.gif": "/static/media/loadie.5f9c942d.gif",
+    "static/media/logo.png": "/static/media/logo.c2eb4d31.png",
+    "static/media/nomadem_imagotipo.png": "/static/media/nomadem_imagotipo.0822d52f.png",
+    "static/media/nomadem_isotipo1.png": "/static/media/nomadem_isotipo1.bc8e230a.png",
+    "static/media/nomademdotcom.png": "/static/media/nomademdotcom.4eda8f96.png",
+    "static/media/noti.mp3": "/static/media/noti.51968488.mp3",
+    "static/media/place-def.png": "/static/media/place-def.b8d18214.png"
+  }
+}
